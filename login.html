@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Fusion</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+            
+                <span class="error" id="username-error">Please enter your username</span>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+                <span class="error" id="password-error">Please enter your password</span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="loginjs.js"></script>
+</body>
+</html>
